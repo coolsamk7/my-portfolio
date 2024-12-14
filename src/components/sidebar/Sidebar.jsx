@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
-import './Sidebar.css';
-import { HashLink as Link } from 'react-router-hash-link';
 import { motion } from 'framer-motion';
+import React from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
+import './Sidebar.css';
 
-import logo from '../images/sam.png';
 import github from '../images/github.png';
-import instagram from '../images/instagram.png';
-import twitter from '../images/twitterx.png';
-import linkedin from '../images/linkedin.png';
 import gmail from '../images/gmail.png';
+import instagram from '../images/instagram.png';
+import linkedin from '../images/linkedin.png';
+import logo from '../images/sam.jpg';
 
 export default function Sidebar() {
   const container = {
@@ -25,23 +24,19 @@ export default function Sidebar() {
   const iconList = [
     {
       component: github,
-      href: 'https://github.com/mittalsam98'
+      href: 'https://github.com/coolsamk7'
     },
     {
       component: linkedin,
-      href: 'https://www.linkedin.com/in/sachin-mittal-476174158?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BoRhF2EUsQJ%2BygJpLEZb%2FFA%3D%3D'
-    },
-    {
-      component: twitter,
-      href: 'https://twitter.com/Sachin_Mittal98'
+      href: 'https://www.linkedin.com/in/coolsamk7'
     },
     {
       component: instagram,
-      href: 'https://www.instagram.com/decent_sachin.mittal'
+      href: 'https://www.instagram.com/syntaxsorcerer'
     },
     {
       component: gmail,
-      href: 'mailto:mittalsam98@gmail.com'
+      href: 'mailto:sameer.khandke@gmail.com'
     }
   ];
   const item = {
@@ -54,12 +49,14 @@ export default function Sidebar() {
 
   return (
     <div className='sidebar'>
-      <div className='topHashtag'># programmer_life</div>
-      <div className='topHashtag'># hello_world</div>
+      <div className='topHashtag'># syntaxsorcerer</div>
+      <div className='topHashtag'># programmer</div>
       <div className='topHashtag'># coding</div>
+      <div className='topHashtag'># dsa</div>
+      <div className='topHashtag'># architecture</div>
       <h1>
         <Link smooth to='/#start' className='h1_links'>
-          Sachin Mittal
+          Sameer Khandke
         </Link>
       </h1>
       <motion.div
@@ -75,15 +72,10 @@ export default function Sidebar() {
           target='_blank'
           className='fa fa-envelope'
         ></a>
-        &nbsp;mittalsam98@gmail.com
+        &nbsp;sameer.khandke@gmail.com
       </p>
 
       <ul className='sidebar-nav'>
-        <li className='sidebar-nav-items'>
-          <Link smooth to='/#projects' className='links'>
-            Projects
-          </Link>
-        </li>
         <li className='sidebar-nav-items'>
           <Link smooth to='/#about' className='links'>
             About
@@ -128,7 +120,7 @@ export default function Sidebar() {
       </div>
       <button
         onClick={() => {
-          window.open('https://github.com/mittalsam98/react-portfolio', '_blank');
+          window.open('https://github.com/coolsamk7/my-portfolio', '_blank');
         }}
         className='templateTextBtn'
       >

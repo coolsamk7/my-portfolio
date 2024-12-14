@@ -1,13 +1,11 @@
-import React, { Component } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import classes from './Carousel.module.css';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import 'animate.css/animate.min.css';
-import { GoProject } from 'react-icons/go';
-import { FaArrowCircleDown } from 'react-icons/fa';
-import Hello from '../images/Hello.jpg';
-import Pencil from '../images/Pencil.jpg';
 import { motion } from 'framer-motion';
+import React from 'react';
+import { FaArrowCircleDown } from 'react-icons/fa';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import Hello from '../images/Hello.jpg';
+import classes from './Carousel.module.css';
 
 export default function CarouselImage() {
   return (
@@ -27,7 +25,7 @@ export default function CarouselImage() {
         <div>
           <img className={classes.image} src={Hello} alt='myImage' />
           <div className={classes.h1}>
-            I'm Sachin
+            I'm Sameer
             <motion.h1
               initial={{ scale: 1 }}
               animate={{ scale: [1, 1.2, 1] }} // Define the scale values for the bouncing effect
@@ -37,7 +35,7 @@ export default function CarouselImage() {
               }}
             >
               <a
-                href='https://drive.google.com/file/d/1XwQYRl06QtuNPT8v4fHkbajk1ll9LTbi/view?usp=sharing'
+                href='https://drive.google.com/file/d/1kiTSx9UgyLzpB0rtJLBy2BdvxYIanOvE/view?usp=sharing'
                 rel='opener noreferrer'
                 target='_blank'
               >
@@ -46,7 +44,7 @@ export default function CarouselImage() {
             </motion.h1>
           </div>
         </div>
-        <div>
+        {/* <div>
           <img className={classes.image} src={Pencil} alt='myImage' />
           <div className={classes.h2}>
             <h1> I love building</h1>
@@ -68,7 +66,7 @@ export default function CarouselImage() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
       </Carousel>
     </div>
   );

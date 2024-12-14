@@ -31,7 +31,7 @@ class App extends Component {
           </div>
           <div className='main'>
             <CarouselImages />
-            <Projects />
+            {/* <Projects /> */}
             <About />
             <Interest />
             <Education />
