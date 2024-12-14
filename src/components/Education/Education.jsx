@@ -10,114 +10,104 @@ class Education extends Component {
   render() {
     return (
       <div className={classes.box} id='education'>
-        {/* <ScrollAnimation
-          offset={0}
-          animateIn='fadeInLeft'
-          duration={2}
-          animateOnce={true}
-          initiallyVisible={true}
-        > */}
         <span className={classes.head}>MY JOURNEY</span>
         <section className={classes.container}>
           <div>
             <div className={classes.row}>
               <div className={classes.row_md_12}>
                 <div className={classes.timeline_centered}>
-                  {/* <ScrollAnimation
-                      offset={0}
-                      animateIn='fadeInLeft'
-                      duration={2.4}
-                      animateOnce={true}
-                      initiallyVisible={true}
-                    > */}
+                  { }
                   <article className={classes.timeline_entry}>
                     <div className={`${classes.timeline_icon} ${classes.timeline_icon_5}`}>
                       <MdWork />
                     </div>
                     <div className={classes.label}>
                       <h2>
-                        Experience <span>July(2021)-Present</span>
+                        Experience <span>July(2024)-Present</span>
                       </h2>
                       <p>
-                        I am currently working as <b>Software Developer Engineer</b> at{' '}
-                        <a target='_blank' href='https://www.springworks.in/'>
-                          <b>Springworks</b>
+                        I am currently working as <b>Technical Lead</b> at{' '}
+                        <a target='_blank' href='https://www.infovision.com/'>
+                          <b>Infovision Labs India Pvt. Ltd.</b>
                         </a>{' '}
-                        <i>
-                          (previously Springrole and Springworks is a HR technology startup that is
-                          building tools and products to simplify recruiting and help organizations
-                          engage and retain their employees)
-                        </i>{' '}
-                        and boosting my professional skills.
+                        and backend development is my professional skills.
                       </p>
                     </div>
                   </article>
-                  {/* </ScrollAnimation> */}
-                  {/* <ScrollAnimation
-                      offset={0}
-                      animateIn='fadeInLeft'
-                      duration={2.4}
-                      animateOnce={true}
-                      initiallyVisible={true}
-                    > */}
+                  <article className={classes.timeline_entry}>
+                    <div className={`${classes.timeline_icon} ${classes.timeline_icon_5}`}>
+                      <MdWork />
+                    </div>
+                    <div className={classes.label}>
+                      <h2>
+                        Experience <span>July(2022)-June(2024)</span>
+                      </h2>
+                      <p>
+                        I was working as <b>Senior Software Engineer</b> at{' '}
+                        <a target='_blank' href='https://www.cigres.com/'>
+                          <b>Cigres Technologies Private Limited.</b>
+                        </a>
+
+                        <section className={classes.section}>
+                          <br />
+                          <p className={classes.paragraph}>
+                            Responsibilities:
+                          </p>
+                          <p className={classes.paragraph}>
+                            Managing a development team of four members, fostering smooth workflow and effective teamwork.
+                          </p>
+                          <p className={classes.paragraph}>
+                            Participating in coding and implementation processes, playing a key role in project accomplishments.
+                          </p>
+                          <p className={classes.paragraph}>
+                            Formulating strategies to uphold the quality of software products.
+                          </p>
+                          <p className={classes.paragraph}>
+                            Creating GIT hook to verify code quality, promoting adherence to coding standards and best practices.
+                          </p>
+                          <p className={classes.paragraph}>
+                            Devising a script for mutation scans, pinpointing possible code vulnerabilities and bolstering code robustness.
+                          </p>
+                          <p className={classes.paragraph}>
+                            Establishing automated tasks for regular mutation scans, facilitating ongoing monitoring of code quality and focused enhancements.
+                          </p>
+                          <p className={classes.paragraph}>
+                            Solving customer queries by initiating regular interactions; mentoring & supervising the team and extending technical support.
+                          </p>
+                          <p className={classes.paragraph}>
+                            Identifying and resolving performance bottlenecks and optimized code for improved efficiency.
+                          </p>
+                        </section>
+                      </p>
+                    </div>
+                  </article>
                   <article className={classes.timeline_entry}>
                     <div className={classes.timeline_icon}>
                       <MdSchool />
                     </div>
                     <div className={classes.label}>
                       <h2>
-                        Undergraduation at SLIET <span>2017-2021</span>
+                        Post Graduate from Dr. Babasaheb Ambedkar Marathwada University <span>2014-2016</span>
                       </h2>
                       <p>
-                        I completed my undergraduation in CSE (Computer Science and Engineering)
-                        from <a href='http://sliet.ac.in/'>SLIET</a> with overall 82.71%.
+                        I completed my Post Graduation in M.Sc (Computer Science)
+                        from <a href='https://bamua.digitaluniversity.ac/'>Dr. Babasaheb Ambedkar Marathwada University</a> with overall 73.53%.
                       </p>
                     </div>
                   </article>
-                  {/* </ScrollAnimation> */}
-                  {/* <ScrollAnimation
-                      offset={0}
-                      animateIn='fadeInLeft'
-                      duration={2.4}
-                      animateOnce={true}
-                      initiallyVisible={true}
-                    > */}
                   <article className={classes.timeline_entry}>
                     <div className={`${classes.timeline_icon} ${classes.timeline_icon_2}`}>
                       <FaSchool />
                     </div>
                     <div className={classes.label}>
                       <h2>
-                        Higher Education <span>2014-2016</span>
+                        Graduation <span>2011-2014</span>
                       </h2>
                       <p>
-                        I have completed my higher education from HKIS with major subjects as
-                        Physics,Chemistry & Maths with 85% merit in CBSE board.{' '}
+                        I have completed my graduation in Computer Science from Vivekanad College Aurangabad with 76.00 %.{' '}
                       </p>
                     </div>
                   </article>
-                  {/* </ScrollAnimation> */}
-
-                  {/* <ScrollAnimation
-                      offset={0}
-                      animateIn='fadeInLeft'
-                      duration={2.4}
-                      animateOnce={true}
-                      initiallyVisible={true}
-                    > */}
-                  <article>
-                    <div className={`${classes.timeline_icon} ${classes.timeline_icon_4}`}>
-                      <MdWork />
-                    </div>
-                    <div className={classes.label}>
-                      <h2>Internship</h2>
-                      <p>Completed one month Internship in React Js with Internity Foundation</p>
-                    </div>
-                    <div className={classes.timeline_entry_inner}>
-                      <div className={classes.timeline_icon_3 || classes.color_none}></div>
-                    </div>
-                  </article>
-                  {/* </ScrollAnimation> */}
                 </div>
               </div>
             </div>
